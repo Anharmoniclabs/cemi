@@ -1,19 +1,23 @@
-# Cemí: visual style contract
+# Cemí: visual style contract — v2 author reference lock
 
 **Canonical direction:** Original artist's hand drawings -> cleaner finished graphic animation -> restrained anime polish -> Option B 'Moody Urban Dusk'. No generic anime/pretty-boy homogenization.
 
 ## Non-negotiable geometry
 
 - Each character must preserve their own face (jaw, nose, brows, eye spacing, skin tone, hairline, height and body mass). Facial construction uses the author's boxy/organic asymmetric shapes.
-- Ink: distinct line-widths, crisp outer contour, lighter internal lines. The cartoon should be *complete*, not over-sketched.
+- Ink: distinct variable widths and confident asymmetric outlines with **deliberate crosshatching** for hair, face planes, fabric folds and environments. The cartoon is finished and richly textured; remove *construction scribbles*, not the artist's purposeful ink marks.
 - Hair: group curls/locs into coherent masses while keeping irregular artist-made silhouettes.
 - Eyes: graphic lids and selective catchlights; never default to exaggerated glossy anime eyes.
-- Keep shapes animation-readable from full-body distance; cel shadows grouped in two or three levels.
+- Keep shapes animation-readable from full-body distance; group cel shadows into two or three levels **while retaining deliberate hand-inked texture and rich watercolor/gouache-like comic color fills**.
 - **No gratuitous text**: no inspirational quotes, floating slogans, graffiti words, wall lettering, brand logos, caption cards, typography, or speech-bubble text inside scene generations. Production notes go in JSON, not in pictures. Only explicit story-required signs or props may have writing, preferably overlaid accurately in post.
+
+## Source image is a style/finish reference — not a cover-template
+
+The author-provided wide 2026-10-09 *Heralds of the Cemí* illustrated series overview is the visual target for **ink texture, finished color, expressive faces, dense crosshatched hair, gritty buildings and saturated cinematic mood**. It is an editorial montage whose headlines and chapter thumbnails must NEVER bleed into generated scene backgrounds or isolated character assets. See the authoritative [ART_DIRECTION.md](../../docs/ART_DIRECTION.md) for composition modes and negative prompts.
 
 ## Option B grade
 
-Night-blue #1B2634; muted steel #35465B, #6C8597; amber edge light #E7783D; brown #715043; warm charcoal #211C1C. Keep natural skin diversity accurate. For emotional scenes, alter light intensity rather than changing character pigment.
+Night-blue #1B2634; muted steel #35465B, #6C8597; copper-amber edge light #E7783D and luminous sunset yellows; warm brown #715043; charcoal-black ink #211C1C. Rich painterly colored surfaces and selective red/teal details, NOT washed-out gray/navy. Keep natural skin diversity accurate. For emotional scenes, alter light intensity rather than changing character pigment.
 
 ## Character Bible wins over concept drift
 
