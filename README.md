@@ -1,5 +1,9 @@
 # Heralds of the Cemí — SDXL Animation Studio
 
+> **Visual source of truth:** [Canonical 2026-10-09 art direction](docs/ART_DIRECTION.md) — finished crosshatched hand-ink graphic-novel animation with rich painterly color and Option B dusk grade. No unnecessary wall slogans or text in generated assets.
+
+> **CLI status:** the implemented CLI currently lives in `cemi_pipeline/` and covers nine core characters with single-shot generation. The full 68-entry author character index is present in `configs/cast_full.json`; a root-level `scripts/cemi_cast.py` batch generator is not yet checked in. The root-level examples below are target interface notes, **not working commands yet**. Run the nested CLI as documented in [its README](cemi_pipeline/README.md).
+
 A repeatable, author-directed character generation and animation pipeline for Luis M. Minier's **Heralds of the Cemí**. Built from the artist's original hand drawings, not generic anime defaults.
 
 **Locked direction:** Option B — Moody Urban Dusk. Maintain organic blocky faces, expressive heavy brows, subtle asymmetry and identity-specific hair. Clean 2D cel-shading; restrained anime influence; amber rim light and blue-gray shadows. **No random words, slogans, graffiti, or wall text in scenes.**
@@ -12,7 +16,7 @@ A repeatable, author-directed character generation and animation pipeline for Lu
 - `scripts/prepare_style_dataset.py`: prepare only manually approved style-training art
 - `docs/PIPELINE.md`: fine-tuning, identities, animation and release steps
 
-## First commands
+## Proposed full-cast commands (not yet implemented)
 ```bash
 python -m pip install -r requirements.txt
 python scripts/cemi_cast.py validate
