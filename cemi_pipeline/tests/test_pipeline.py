@@ -46,5 +46,15 @@ class PipelineTests(unittest.TestCase):
         self.assertIn('short curly',data['JC']['look'])
         self.assertNotEqual(data['JC']['build'],data['MANNY']['build'])
 
+    def test_hand_ink_reference_is_not_filtered_out(self):
+        from cemi_pipeline.cli import config, ROOT
+        s = config(ROOT/'configs/style.yaml')
+        self.assertEqual(s['style_id'], 'cemi_option_b_v2_handink')
+        self.assertIn('crosshatching', s['positive_prefix'])
+        self.assertIn('ink', s['positive_prefix'].lower())
+        self.assertIn('wall writing', s['negative'])
+        self.assertNotIn('excessive hatch marks', s['negative'])
+        self.assertIn('watercolor', s['positive_prefix'])
+
 if __name__=='__main__':
     unittest.main()
