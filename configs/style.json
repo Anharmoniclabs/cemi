@@ -1,0 +1,17 @@
+{
+  "id": "cemi_option_b_v1",
+  "trigger": "cemistyle",
+  "base_model": "stabilityai/stable-diffusion-xl-base-1.0",
+  "artist_direction": "Preserve Luis M. Minier's own geometric hand-drawn face construction, expressive brows, individual mouths/noses, slight asymmetry; finished clean 2D animation with modest anime polish, not generic anime.",
+  "palette": {
+    "navy": "#1B2634",
+    "slate": "#35465B",
+    "steel_blue": "#6C8597",
+    "amber": "#E7783D",
+    "brown": "#715043",
+    "ink": "#211C1C"
+  },
+  "visual": "mature hand-drawn-derived 2D cel animated comic, clean confident outlines, graphic grouped shadow masses, painterly accents, warm/cool contrast, dark natural skin values intact",
+  "negative": "text, letters, words, captions, signage, wall writing, graffiti slogans, logos, watermark, floating quotes, speech bubbles, shiny generic anime eyes, generic face, photorealism, 3d plastic skin, over-sketching, extra arms, malformed hands, duplicate character",
+  "quality_gate": "Human inspection required: author recognizability, correct face/hair/body, age, costume, hands, background text, composition, readable silhouette, character continuity."
+}
