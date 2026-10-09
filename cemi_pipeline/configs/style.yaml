@@ -1,0 +1,26 @@
+style_id: cemi_option_b_v1
+trigger: cemistyle
+base_model: stabilityai/stable-diffusion-xl-base-1.0
+visual_language:
+  source: 'Original hand-drawn Cemí portraits; cleaned for animation, not replaced by stock anime.'
+  anatomy: 'Hand-built geometric and asymmetric faces, strong individual noses and jaws, heavy expressive brows.'
+  eyes: 'Grounded tired expressive eyes; restrained anime eyelids and highlights, never oversized generic eyes.'
+  hair: 'Hand-drawn curls/locs designed as legible masses with irregular outer silhouettes.'
+  outlines: 'Confident variable-width ink lines, sparse pencil texture, no loose construction scribbles.'
+  shading: 'Two to three cel-shadow groups with light painterly grain, atmospheric amber rim light.'
+  camera: 'Character-centered, graphic silhouettes, composition suitable for sequential animation.'
+color_grade:
+  name: 'Option B — Moody Urban Dusk'
+  shadows: '#1B2634'
+  midnight_blue: '#35465B'
+  steel_blue: '#6C8597'
+  highlight_amber: '#E7783D'
+  warm_brown: '#715043'
+  ink_black: '#211C1C'
+  skin_tones: 'Preserve each character’s natural skin tone; warm highlights and cooler shadows, no global skin-color cast.'
+positive_prefix: 'cemistyle, original hand-drawn-derived animation design, mature graphic cartoon, restrained anime influence, clean confident outlines, distinct asymmetric facial geometry, expressive thick eyebrows, grouped organic hair, cinematic navy dusk shadows, amber rim lighting, restrained cel shading'
+negative: 'writing, words, text, letters, captions, logos, watermarks, graffiti slogans, wall writing, poster typography, speech bubble text, duplicate person, extra limbs, extra fingers, deformed hands, generic anime face, huge glossy eyes, plastic skin, excessive hatch marks, rough sketch construction lines, random visual clutter'
+model_strategy:
+  style_lora: 'Use diverse approved finished works from multiple characters and scenes.'
+  character_identity: 'Use character reference art, IP-Adapter FaceID where suitable, pose/depth controls, or separate character LoRAs later.'
+  animation: 'Keyframed storyboard and reused designs first; do not independently regenerate every video frame.'
