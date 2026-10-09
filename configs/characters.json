@@ -1,0 +1,114 @@
+{
+  "source": "Author character bible, Oct 9 2026; adaptation choices remain author-reviewable",
+  "characters": {
+    "JC": {
+      "name": "Juan Carlos ‘JC’ Cabral",
+      "age": 25,
+      "build": "lean, medium height",
+      "look": "Dominican-American, narrow tired face, family dark almond eyes, short dark curly hair faded at sides, light stubble",
+      "outfit": "charcoal hoodie, dark jeans, worn sneakers, headphones around neck",
+      "props": [
+        "coin",
+        "Chismosa contact mic",
+        "laptop"
+      ],
+      "continuity": "Right-ear deafness starts after chapter 23; right-palm coin burn; palm cut from chapter 15"
+    },
+    "MANNY": {
+      "name": "Manuel ‘Manny’",
+      "age": 25,
+      "build": "6 feet 3 inches, massive broad shoulders and chest, large hands",
+      "look": "Afro-Dominican, warm broad grin, expressive brows, close-cropped hair with sharp lineup (adaptation choice)",
+      "outfit": "oversized t-shirt or Knicks shirt, track pants, sneakers",
+      "props": [
+        "conga",
+        "drum case"
+      ],
+      "continuity": "Ribs taped from chapter 24; conga rim cracks and is repaired"
+    },
+    "MIKEY": {
+      "name": "Mikey",
+      "age": 25,
+      "build": "lean wiry, left shoulder dips",
+      "look": "Latino, scar through left eyebrow, blank calm tired-eyed stare, neat haircut",
+      "outfit": "gray jacket, dark shirt, low ball cap",
+      "props": [
+        "phone"
+      ],
+      "continuity": "two fingers to left temple, Aperture ambassador"
+    },
+    "MAMA": {
+      "name": "Doña Altagracia Cabral",
+      "age": 53,
+      "build": "sturdy medium",
+      "look": "Dominican, family almond eyes, dark hair pulled back with gray",
+      "outfit": "home blouse and slacks or plum church coat",
+      "props": [
+        "rosary",
+        "dish towel"
+      ],
+      "continuity": "younger variant for 2007"
+    },
+    "ABUELA": {
+      "name": "Abuela",
+      "age": 79,
+      "build": "small slightly stooped",
+      "look": "Dominican, weathered face, shared almond eyes, thinning white hair",
+      "outfit": "cotton housedress, or plain dark work dress",
+      "props": [
+        "rosary",
+        "ledger",
+        "La Madre"
+      ],
+      "continuity": "1961 and 2009 variants"
+    },
+    "YANAISA": {
+      "name": "Yanaisa",
+      "age": 25,
+      "build": "athletic compact",
+      "look": "Dominican, strong jaw, skeptical eyes, low bun (adaptation choice)",
+      "outfit": "navy paramedic uniform or hand-hemmed blue skirt",
+      "props": [
+        "motorcycle helmet",
+        "woven sling with Yúcahu"
+      ],
+      "continuity": "Yúcahu carried in woven sling"
+    },
+    "SOFIA": {
+      "name": "Sofía",
+      "age": 26,
+      "build": "small and quick",
+      "look": "Dominican-American, sharp narrow-eyed face, clipped dark hair, rectangular glasses (adaptation choice)",
+      "outfit": "cardigan jeans or Founders Night black dress",
+      "props": [
+        "DATA notebook",
+        "clipboard",
+        "laptop"
+      ],
+      "continuity": "four phones for Founders Night"
+    },
+    "YARI": {
+      "name": "Yari",
+      "age": 27,
+      "build": "tall steady",
+      "look": "Afro-Latina, tired warm eyes, box braids high bun (adaptation choice)",
+      "outfit": "ceil-blue scrubs and jacket",
+      "props": [
+        "first-aid bag",
+        "phone"
+      ],
+      "continuity": "nurse, JC's ex"
+    },
+    "VALE": {
+      "name": "Adrian Vale",
+      "age": 55,
+      "build": "tall slender",
+      "look": "pale man, silver-gray hair, long patient face and gray eyes",
+      "outfit": "charcoal overcoat and dark suit",
+      "props": [
+        "black elastic notebook"
+      ],
+      "continuity": "2007 younger variant"
+    }
+  }
+}

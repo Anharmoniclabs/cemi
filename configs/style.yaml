@@ -1,0 +1,19 @@
+style_id: cemi_option_b_v1
+trigger: cemistyle
+base_model: stabilityai/stable-diffusion-xl-base-1.0
+color_grade:
+  name: Option B — Moody Urban Dusk
+  shadows: '#1B2634'
+  midnight_blue: '#35465B'
+  steel_blue: '#6C8597'
+  highlight_amber: '#E7783D'
+  warm_brown: '#715043'
+  ink_black: '#211C1C'
+visual_language:
+  faces: Hand-drawn boxy organic geometry and expressive asymmetric faces, strong brows and distinct noses
+  eyes: Restrained anime polish, not oversized glossy stock eyes
+  hair: Intentionally grouped curls and hand-built silhouettes
+  ink: Clean finished variable-width strokes with only subtle pencil grain
+  shading: Two or three graphic cel-shadow groups with occasional painterly detail
+positive_prefix: 'cemistyle, original hand-drawn-derived animation design, mature graphic cartoon, restrained anime influence, clean confident outlines, distinct asymmetric facial geometry, expressive thick eyebrows, grouped organic hair, cinematic navy dusk shadows, amber rim lighting, restrained cel shading'
+negative: 'writing, words, text, letters, captions, logos, watermarks, graffiti slogans, wall writing, poster typography, speech bubble text, duplicate person, extra limbs, extra fingers, deformed hands, generic anime face, huge glossy eyes, plastic skin, excessive hatch marks, rough sketch construction lines, random visual clutter'
